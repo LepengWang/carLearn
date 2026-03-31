@@ -27,4 +27,9 @@
         android:label="ProfileFragment"
         tools:layout="@layout/fragment_profile" />
 
+    <fragment
+        android:id="@+id/questionBankFragment"
+        android:name="com.example.carlearn.ui.QuestionBankFragment"
+        android:label="题库" />
+
 </navigation>
