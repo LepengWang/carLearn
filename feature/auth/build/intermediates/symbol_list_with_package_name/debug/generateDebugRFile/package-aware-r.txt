@@ -1,0 +1,11 @@
+com.example.carlearn.feature.auth
+id btnLogin
+id btnRegister
+id etConfirmPassword
+id etPassword
+id etPhone
+id etUsername
+id tvBackLogin
+id tvRegister
+layout activity_login
+layout activity_register

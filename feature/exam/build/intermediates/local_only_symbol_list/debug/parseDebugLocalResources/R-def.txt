@@ -1,0 +1,15 @@
+R_DEF: Internal format may change without notice
+local
+id btnNext
+id btnOptionA
+id btnOptionB
+id btnOptionC
+id btnOptionD
+id btnPrev
+id cardExplanation
+id layoutOptions
+id tvExplanation
+id tvProgress
+id tvQuestion
+id tvQuestionType
+layout fragment_exam

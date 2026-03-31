@@ -1,0 +1,14 @@
+com.example.carlearn.core.ui
+color accent
+color black
+color correct
+color error
+color gray_dark
+color gray_light
+color primary
+color primary_dark
+color white
+drawable bg_option_correct
+drawable bg_option_default
+drawable bg_option_error
+style OptionButtonStyle
