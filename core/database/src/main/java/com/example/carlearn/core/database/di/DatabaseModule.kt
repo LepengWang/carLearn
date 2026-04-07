@@ -5,6 +5,8 @@ import androidx.room.Room
 import com.example.carlearn.core.database.AppDatabase
 import com.example.carlearn.core.database.dao.QuestionDao
 import com.example.carlearn.core.database.dao.UserDao
+import com.example.carlearn.core.database.network.QuestionApiService
+import com.example.carlearn.core.database.network.RetrofitClient
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -35,5 +37,11 @@ object DatabaseModule {
     @Provides
     fun provideQuestionDao(database: AppDatabase): QuestionDao {
         return database.questionDao()
+    }
+
+    @Provides
+    @Singleton
+    fun provideQuestionApiService(): QuestionApiService {
+        return RetrofitClient.questionApi
     }
 }

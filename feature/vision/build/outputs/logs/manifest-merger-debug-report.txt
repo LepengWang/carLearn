@@ -1,16 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Lenovo\Desktop\carLearn\carLearn\feature\vision\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12479296764328495233.xml:2:13-83
-INJECTED from C:\Users\Lenovo\Desktop\carLearn\carLearn\feature\vision\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12479296764328495233.xml:2:13-83
+ADDED from D:\byteDance\project\carLearn\feature\vision\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest7741652966908333932.xml:2:13-83
+INJECTED from D:\byteDance\project\carLearn\feature\vision\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest7741652966908333932.xml:2:13-83
 	package
-		INJECTED from C:\Users\Lenovo\Desktop\carLearn\carLearn\feature\vision\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12479296764328495233.xml
+		INJECTED from D:\byteDance\project\carLearn\feature\vision\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest7741652966908333932.xml
 	xmlns:android
-		ADDED from C:\Users\Lenovo\Desktop\carLearn\carLearn\feature\vision\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12479296764328495233.xml:2:23-81
+		ADDED from D:\byteDance\project\carLearn\feature\vision\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest7741652966908333932.xml:2:23-81
 uses-sdk
-INJECTED from C:\Users\Lenovo\Desktop\carLearn\carLearn\feature\vision\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12479296764328495233.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Lenovo\Desktop\carLearn\carLearn\feature\vision\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12479296764328495233.xml
-INJECTED from C:\Users\Lenovo\Desktop\carLearn\carLearn\feature\vision\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12479296764328495233.xml
+INJECTED from D:\byteDance\project\carLearn\feature\vision\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest7741652966908333932.xml reason: use-sdk injection requested
+INJECTED from D:\byteDance\project\carLearn\feature\vision\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest7741652966908333932.xml
+INJECTED from D:\byteDance\project\carLearn\feature\vision\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest7741652966908333932.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Lenovo\Desktop\carLearn\carLearn\feature\vision\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12479296764328495233.xml
+		INJECTED from D:\byteDance\project\carLearn\feature\vision\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest7741652966908333932.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Lenovo\Desktop\carLearn\carLearn\feature\vision\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12479296764328495233.xml
+		INJECTED from D:\byteDance\project\carLearn\feature\vision\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest7741652966908333932.xml
