@@ -28,24 +28,44 @@ class ExamViewModel @Inject constructor(
     private val _isCorrect = MutableLiveData<Boolean?>(null)
     val isCorrect: LiveData<Boolean?> = _isCorrect
 
+    private val _isLoading = MutableLiveData<Boolean>()
+    val isLoading: LiveData<Boolean> = _isLoading
+
+    private val _errorMessage = MutableLiveData<String?>()
+    val errorMessage: LiveData<String?> = _errorMessage
+
     fun loadQuestions(category: String) {
+        _isLoading.value = true
         viewModelScope.launch {
-            // 1. 开启本地数据库监听 (响应式 UI)
             repository.getQuestionsByCategory(category).collectLatest { list ->
                 _questions.value = list
+                if (list.isNotEmpty()) {
+                    _isLoading.value = false
+                }
             }
         }
-        
-        // 2. 触发网络同步
+
         viewModelScope.launch {
-            repository.syncQuestions()
+            try {
+                repository.syncQuestions()
+            } catch (e: Exception) {
+                if (e !is kotlinx.coroutines.CancellationException) {
+                    _errorMessage.value = "同步题库失败: ${e.message}"
+                }
+            } finally {
+                // 如果本地有数据，就不显示加载中了
+                if (_questions.value?.isNotEmpty() == true) {
+                    _isLoading.value = false
+                }
+            }
         }
     }
 
     fun selectOption(option: String) {
+        // 如果已经答过题，或者没有题目，则不处理
         if (_selectedOption.value != null) return
-
         val currentQ = _questions.value?.getOrNull(_currentQuestionIndex.value ?: 0) ?: return
+
         _selectedOption.value = option
         val correct = option == currentQ.answer
         _isCorrect.value = correct
@@ -61,7 +81,7 @@ class ExamViewModel @Inject constructor(
         val nextIndex = (_currentQuestionIndex.value ?: 0) + 1
         if (nextIndex < (_questions.value?.size ?: 0)) {
             _currentQuestionIndex.value = nextIndex
-            resetState()
+            resetAnswerState()
         }
     }
 
@@ -69,11 +89,11 @@ class ExamViewModel @Inject constructor(
         val prevIndex = (_currentQuestionIndex.value ?: 0) - 1
         if (prevIndex >= 0) {
             _currentQuestionIndex.value = prevIndex
-            resetState()
+            resetAnswerState()
         }
     }
 
-    private fun resetState() {
+    private fun resetAnswerState() {
         _selectedOption.value = null
         _isCorrect.value = null
     }

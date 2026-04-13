@@ -1,16 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\byteDance\project\carLearn\core\ui\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest11668087447392073420.xml:2:13-83
-INJECTED from D:\byteDance\project\carLearn\core\ui\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest11668087447392073420.xml:2:13-83
+ADDED from D:\byteDance\project\carLearn\core\ui\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12622989121244363793.xml:2:13-83
+INJECTED from D:\byteDance\project\carLearn\core\ui\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12622989121244363793.xml:2:13-83
 	package
-		INJECTED from D:\byteDance\project\carLearn\core\ui\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest11668087447392073420.xml
+		INJECTED from D:\byteDance\project\carLearn\core\ui\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12622989121244363793.xml
 	xmlns:android
-		ADDED from D:\byteDance\project\carLearn\core\ui\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest11668087447392073420.xml:2:23-81
+		ADDED from D:\byteDance\project\carLearn\core\ui\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12622989121244363793.xml:2:23-81
 uses-sdk
-INJECTED from D:\byteDance\project\carLearn\core\ui\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest11668087447392073420.xml reason: use-sdk injection requested
-INJECTED from D:\byteDance\project\carLearn\core\ui\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest11668087447392073420.xml
-INJECTED from D:\byteDance\project\carLearn\core\ui\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest11668087447392073420.xml
+INJECTED from D:\byteDance\project\carLearn\core\ui\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12622989121244363793.xml reason: use-sdk injection requested
+INJECTED from D:\byteDance\project\carLearn\core\ui\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12622989121244363793.xml
+INJECTED from D:\byteDance\project\carLearn\core\ui\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12622989121244363793.xml
 	android:targetSdkVersion
-		INJECTED from D:\byteDance\project\carLearn\core\ui\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest11668087447392073420.xml
+		INJECTED from D:\byteDance\project\carLearn\core\ui\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12622989121244363793.xml
 	android:minSdkVersion
-		INJECTED from D:\byteDance\project\carLearn\core\ui\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest11668087447392073420.xml
+		INJECTED from D:\byteDance\project\carLearn\core\ui\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12622989121244363793.xml
